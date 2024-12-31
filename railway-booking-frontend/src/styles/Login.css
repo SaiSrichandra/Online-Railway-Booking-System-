@@ -1,0 +1,71 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center the container vertically */
+  height: 100vh;
+  background-image: url('../assets/Railway-Reservation-System.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #000; /* Black text color */
+  margin-bottom: 20px;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.9); /* White background with some transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #000; /* Black text color */
+}
+
+form input {
+  width: 100%;
+  padding: 10px; /* Add padding to input fields */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.home-link, .signup-link {
+  margin-top: 20px;
+  color: #000; /* Black text color */
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.signup-link {
+  margin-top: 10px; /* Add some space between the links */
+}

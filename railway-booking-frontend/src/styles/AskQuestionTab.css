@@ -1,0 +1,95 @@
+/* AskQuestionTab.css */
+
+.ask-question-tab {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .ask-question-tab h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+    background-color: #0056b3;
+  }
+  
+  .question-list {
+    margin-top: 20px;
+  }
+  
+  .question-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .question-item p {
+    margin: 0;
+  }
+  
+  .question-item .actions {
+    margin-top: 10px;
+  }
+  
+  .question-item .actions button {
+    margin-right: 10px;
+  }
+
+  button.small {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 10px;
+  }
